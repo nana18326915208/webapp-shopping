@@ -1,0 +1,22 @@
+header .fix_hd{
+	text-align: center;
+	color:#fff;
+}
+header .fix_hd a{display: block;}
+header .fix_hd .tit{
+	color:#fff;
+	font:0.32rem/0.75rem "微软雅黑";
+}
+header .fix_hd .hd_l{
+	display: block;
+	position: absolute;
+	left:0;
+	top:0.11rem;
+	/*background:url(../img/back_icon.png)no-repeat;*/
+	width:0.887rem;
+	height: 0.887rem;
+}
+header .fix_hd .hd_l img{
+	width:0.5rem;
+	height:0.5rem;
+}

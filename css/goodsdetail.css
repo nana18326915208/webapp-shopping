@@ -1,0 +1,125 @@
+#content .banner{height:5.12rem;width:100%;}
+#content .banner .swiper-container,.swiper-wrapper,.swiper-slide{
+	height: 100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+	width:100%;
+	height:100%;
+}
+
+#content .detail_con{
+	background:#eee;
+}
+.detail_con .det_info{
+	padding:0.17rem;
+	background:#fff;
+}
+.detail_con .det_info .item-name {
+    color: #333;
+    overflow: hidden;
+    font:0.238rem/0.34rem "微软雅黑";
+    font-weight: 400;
+}
+.detail_con .det_info ul li{
+	color: #999;
+    font-size:0.221rem;
+    padding:0.17rem 0;
+}
+.detail_con .det_info label{
+    margin:0.085rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size:0.23rem;
+}
+.detail_con .det_info .price {
+     color: #f63234; 
+    font-size:0.34rem;
+    margin-right:0.085rem;
+    vertical-align: top;
+    font-family: "Helvetica Neue";
+}
+.detail_con .det_info ul li dl{
+	display: inline-block;
+    width: 82%;
+    
+}
+.detail_con .det_info ul li dl dd{
+	display: inline-block;
+    color: #333;
+    padding: 0.068rem 0.17rem;
+    border: 1.5px solid #aaa;
+    margin: 0 0.17rem 0.085rem 0;
+    position: relative;
+    color:#000;
+    cursor: pointer;
+}
+.detail_con .det_info ul li dl .check{
+	border: 1.5px solid #d41e1e;
+}
+.detail_con .det_info ul li dl .check span{
+	display: inline-block;
+    width:0.238rem;
+    height:0.238rem;
+    background: url(../img/checkIcont.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+}
+.detail_con .det_info ul li .mui-numbox{
+	display: inline-block;
+	height:0.412rem;
+	width:2.218rem;
+	overflow: hidden;
+}
+.detail_con .det_info ul li .mui-numbox .count{
+	color: #333;
+    font-size:0.238rem;
+    height:0.412rem;
+    vertical-align: middle;
+    width:0.412rem;
+    border: 1px solid #333;
+    float: left;
+    text-align: center;
+}
+.detail_con .det_info ul li .mui-numbox a{
+	display:inline-block;
+	font:700 0.31rem/0.412rem "微软雅黑";
+    color: #333;
+    width:0.412rem;
+    text-align: center;
+    height:0.412rem;
+    vertical-align: middle;
+    border:1px solid #000;
+    float: left;
+}
+.detail_con .goodscontent{
+	background:#fff;
+	height: 0.68rem;
+    line-height: 0.68rem;
+    padding: 0 0.17rem;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+	border-top: 1px solid #e5e5e5;
+    margin-top:0.34rem;
+    
+}
+.detail_con .goodscontent .goods-fnav{
+	overflow: hidden;
+}
+.detail_con .goodscontent .goods-fnav li{
+	float: left;
+    width: 33.33%;
+    color: #666;
+    font:0.273rem/0.68rem "微软雅黑";
+    text-align: center;
+    cursor: pointer;
+}
+.detail_con .goodscontent .goods-fnav li.on {
+    border-bottom: 0.034rem solid #f63234;
+    color: #f63234;
+    height:0.682rem;
+}
+.detail_con .goodscontent .cloth{
+	padding: 0.17rem;
+}

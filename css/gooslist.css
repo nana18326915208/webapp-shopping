@@ -1,0 +1,57 @@
+
+#content .goods_ul{
+	border-bottom: 1px solid #eee;
+	background:#fff;
+	height:0.767rem;
+}
+#content .goods_ul li{
+	float: left;
+	width:25%;
+	text-align: center;
+	font:0.24rem/0.75rem "微软雅黑";
+}
+#content .goods_ul li a{
+	display: block;
+	height:0.75rem;
+}
+#content .goods_ul li.active{
+	border-bottom: 1px solid #f1382f;
+}
+#content .goods_ul li.active a{
+	color:#f1382f;
+}
+
+#content .item_list{
+	background:#fff;
+}
+#content .item_list li{
+	padding:0.17rem;
+    height: auto;
+    height: 1.2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+#content .item_list .li_l{
+	width:1.55rem;
+	height:1.11rem;
+}
+#content .item_list .li_r{
+	margin-left:100px;
+}
+#content .item_list .li_r .p_title{
+	color: #333;
+    height:0.68rem;
+    font:0.22rem/0.34rem "";
+    overflow: hidden;
+    word-break: break-all;
+    margin: 0;
+}
+#content .item_list .li_r .price{
+	color:#f00;
+	font-size:0.24rem;
+	margin:0.05rem 0 0;
+}
+#content .item_list .li_r .old_price{
+	color: #999;
+    font-size: 0.23rem;
+    text-decoration: line-through;
+}
